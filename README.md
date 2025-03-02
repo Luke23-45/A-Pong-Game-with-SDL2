@@ -1,4 +1,4 @@
-```markdown
+
 # Dynamic Pong
 
 A classic Pong game implementation in C++ using SDL2, featuring dynamic ball colors and particle effects on paddle collision.
