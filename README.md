@@ -38,43 +38,40 @@ Ensure you have the following installed:
 Colorfull-Ball-with-Particle-Effect-Animation/
 ├── pong.cc    # Main C++ source file
 ├── Makefile             # Build script for the project
-└── README.md            # Project documentation (this file)
 ```
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone git@github.com:Luke23-45/Colorfull-Ball-with-Particle-Effect-Animation.git
+   git clone git@github.com:Luke23-45/A-Pong-Game-with-SDL2.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Colorfull-Ball-with-Particle-Effect-Animation
+   cd A-Pong-Game-with-SDL2
    ```
 
 ## Building
 
 This project uses `make` for building. To build the project, run the following command in your terminal:
 
-3. Compile the code:
+1. Compile the code:
    ```bash
     make
    ```
-   This command will compile `colorfull_ball.cc` and create an executable named `Colorfull-Ball-with-Particle-Effect-Animation` (or `main.exe` on Windows).
 
 4. Run the executable:
 
 * **Linux/macOS:**
    ```bash
-   ./Colorfull-Ball-with-Particle-Effect-Animation
+   ./A-Pong-Game-with-SDL2
    ```
 
 * **Windows:**
    ```bash
    main.exe
    ```
-   (Alternatively, you might directly run `Colorfull-Ball-with-Particle-Effect-Animation.exe` if Makefile is configured to produce that name on Windows)
 
-5. To clean up the build artifacts (object files and executable):
+1. To clean up the build artifacts (object files and executable):
    ```bash
    make clean
    ```
@@ -100,7 +97,7 @@ This project uses `make` for building. To build the project, run the following c
 
 The project is structured as follows:
 
-* **`colorfull_ball.cc`**: Contains all the source code for the Dynamic Pong game.
+* **`pong.cc`**: Contains all the source code for the Dynamic Pong game.
     * **SDL Initialization and Setup**: Handles window creation, renderer setup, and initialization of SDL and SDL_ttf.
     * **Game Loop**:  Manages the main game loop, event handling, game state updates, and rendering.
     * **Rendering Functions**: Includes functions for drawing filled circles (`SDL_RenderFillCircle`), and converting HSV color values to RGB (`HSVtoRGB`).
@@ -110,10 +107,6 @@ The project is structured as follows:
     * **Score Rendering**: Uses SDL_ttf to render and display the player and AI scores on the screen.
     * **Dynamic Color**: Implements hue shifting for the ball and particles to create dynamic colors.
 
-* **`Makefile`**:  A build script that simplifies the compilation process. It includes:
-    * **Compilation command** for `colorfull_ball.cc` into an executable.
-    * **Linking** against necessary SDL2 and SDL2_ttf libraries.
-    * **`clean` target** to remove compiled files, keeping the directory clean.
 
 ## Demo Video
 Check out the project demo video on YouTube: [https://www.youtube.com/watch?v=McOcbGHyAWA](https://www.youtube.com/watch?v=McOcbGHyAWA)
