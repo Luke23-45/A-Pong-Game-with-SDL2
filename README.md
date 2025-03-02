@@ -3,7 +3,6 @@
 
 A classic Pong game implementation in C++ using SDL2, featuring dynamic ball colors and particle effects on paddle collision.
 
-## Description of the project
 
 This project is a rendition of the classic Pong game, developed in C++ using the SDL2 library. It enhances the traditional gameplay with dynamic elements such as a color-shifting ball and particle effects that are triggered upon collision with paddles, adding a visually engaging twist to the retro arcade experience.
 
@@ -63,7 +62,7 @@ This project uses `make` for building. To build the project, run the following c
 
 * **Linux/macOS:**
    ```bash
-   ./A-Pong-Game-with-SDL2
+   ./main
    ```
 
 * **Windows:**
