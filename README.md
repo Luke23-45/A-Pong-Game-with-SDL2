@@ -108,7 +108,7 @@ The project is structured as follows:
 
 
 ## Demo Video
-Check out the project demo video on YouTube: [https://www.youtube.com/watch?v=McOcbGHyAWA](https://www.youtube.com/watch?v=McOcbGHyAWA)
+Check out the project demo video on YouTube: https://youtu.be/HDTzYFRzg50
 
 ## License
 
